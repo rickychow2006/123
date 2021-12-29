@@ -1,0 +1,84 @@
+.workspace-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // background-color:red;
+  font-size: 15px;
+  line-height: 1.46668;
+  font-weight: 400;
+  box-sizing: inherit;
+  height: 74px;
+  align-items: center;
+  padding: 0 16px 0 8px;
+  padding-left: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.workspace-header-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.workspace-header-name{
+  font-size:15px;
+  font-weight: 900;
+  padding: 3px 0 3px;
+}
+
+.workspace-header-description{
+  font-weight: 400;
+  white-space: nowrap;
+  font-size: 13px;
+  opacity: 0.7;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+
+///right side
+.workspace-header-right{
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+}
+.workspace-header-right > *{
+  padding-left:10px;
+}
+
+.workspace-header-number{
+  font-weight: 700;
+  font-size: 13px;
+}
+
+
+
+
+
+
+.workspace-header-leave img {
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+}
+
+.workspace-header-memberinfo i{
+  font-size: 19px;
+}
+.fa-trash-alt,.fa-sign-out-alt{
+  font-size: 20px;
+}
+
+
+.workspace-header-leave,.workspace-header-memberinfo,.workspace-header-deletechannel{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+

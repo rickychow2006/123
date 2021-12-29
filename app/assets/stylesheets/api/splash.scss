@@ -1,0 +1,228 @@
+
+
+
+.splash-header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  background-color: #f6efe8;
+  padding:20px;
+
+ 
+}
+
+
+
+.splash-header-left{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.splash-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-decoration: none;
+  color:black;
+  padding-top: 13px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+ 
+  
+}
+.splash-logo-bro{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.splash-logo-bro h1{
+  padding-left: 5px;
+  padding-right:10px;
+}
+.splash-logo-bro h1 button{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 25px ;
+  font-weight: 700;
+  padding-bottom:2px;
+  cursor: pointer;
+}
+
+
+///the logo img
+.splash-logo img{
+  padding-right: 5px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  bottom:10px;
+  z-index: 5;
+  
+}
+
+.splash-header-right{
+  display: inline-block;
+}
+
+.splash-header-right button{
+  white-space: nowrap;
+  font-weight: 700;
+  letter-spacing:.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align:center;
+  cursor:pointer;
+  border: 1px solid #611f69;
+  background-color: Transparent;
+  color: #611f69;
+  font-size: 18px;
+  // height: 44px;
+  // min-width: 40px;
+  // width: 190px;
+  border-radius: 4px;
+  padding: .71rem 1rem;
+}
+.splash-header-right button:hover{
+  box-shadow: inset 0 0 0 1px #611f69;
+}
+.splash-header-right a{
+  margin-left:20px;
+  padding: .75rem 1rem;
+  white-space: nowrap;
+  font-weight: 700;
+  letter-spacing:.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align:center;
+  cursor:pointer;
+  border: none;
+  background-color: #611f69;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////// contents
+.splash-content-one{
+  background-color: #f6efe8;
+  padding-left:40px;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+
+.splash-content-one,.splash-content-two,.splash-content-three{
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom:40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.splash-one-weslack,.splash-two-features,.splash-three-about{
+  font-weight: 700;
+  font-size:calc(2rem + (18 * (100vw - 400px)/ 624));
+  line-height:1.1875;
+  letter-spacing: -0.8px;
+  padding-top: 10px;
+}
+
+.splash-one-clone,.splash-one-framworks,.splash-content-two-features,.splash-content-three-introduction{
+  font-size:calc(1.4rem + (2 * (100vw - 300px)/ 624));
+  line-height:1;
+  letter-spacing: -0.2px;
+  max-width: 27rem;
+}
+
+
+.splash-content-one img,.splash-content-two img,.splash-content-three-image img{
+  width:calc(35vw);
+  height: calc(35vw);
+  opacity: 0.7;
+  padding-left:30px;
+  padding-right:30px;
+ 
+}
+
+.splash-one-words,.splash-two-words{
+  padding-top: 30px;
+}
+
+.splash-content-three{
+  background-color: #f1f0e2;
+}
+
+
+.splash-content-two-features li{
+  list-style: none;
+  margin: 10px;
+}
+
+.splash-content-three-introduction li{
+  list-style: none;
+  padding: 10px;
+  font-size:calc(1.4rem + (2 * (100vw - 300px)/ 624));
+  line-height:1;
+  letter-spacing: -0.2px;
+  max-width: 27rem;
+}
+
+.splash-content-three-introduction li svg{
+  padding-left: 10px;
+}
+
+.splash-content-footer{
+  color: gray;
+  font-size:35px;
+  // position: relative;
+  // display: flex;
+}
+
+// .splash-content-footer-icons{
+//  position: absolute;
+//  left: 42%;
+// }
+
+.splash-content-footer-icons{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+ }
+
+.splash-content-footer-icons a{
+  margin: 0px 15px 0px;
+  font-size: 50px;
+}
+.splash-content-footer-aboutme{
+  text-align: center;
+}
+
+// .splash-content-footer-icons a:nth-child(1){
+//   position:absolute;
+//   left: 45%;
+// }
+// .splash-content-footer-icons a:nth-child(2){
+//   position:absolute;
+//   left: 50%;
+// }
+
+
+// .splash-content-footer-icons a:nth-child(3){
+//   width:50px;
+//   position: absolute;
+  
+// }

@@ -1,0 +1,123 @@
+// Place all the styles related to the api/sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.session-form-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.session-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  font-size: 34px;
+  padding: 48px;
+  text-align: center;
+}
+
+.nav-link{
+  font-style: italic
+}
+
+.nav-link:hover{
+  color: white;
+  background-color: #611f69;
+}
+
+
+
+
+//words on buttons
+
+.session-submit:hover, .session-try-demo:hover {
+  cursor: pointer;
+}
+
+.session-submit,.session-try-demo {
+  background-color:  #611f69;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  height: 44px;
+  min-width: 96px;
+  width: 400px;
+  border-radius: 4px;
+  border: none;
+  letter-spacing: -0.5px;
+  display: inline-block;
+  margin-bottom: 15px;
+  outline:none;
+}
+
+
+
+.session-input{
+  border-radius: 4px;
+  border: 1px solid #868686;
+  transition: border 80ms;
+  margin: 0 0 20px;
+  box-sizing: border-box;
+  min-width: 400px;
+  border-color: rgb(134, 134, 134);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  height: 44px;
+  font-size: 18px;
+  font-stretch: 100%;
+}
+
+.session-input:focus {
+  box-shadow: 0px 0px 5px rgb(18, 100, 163);
+  outline-width: 0;
+}
+
+
+///words
+.session-words h2{
+  font-weight: 700;
+  font-size:48px;
+  line-height: 46px;
+  max-width: 700px;
+  text-align: center;
+  letter-spacing: -.75px;
+  margin-bottom: 10px;
+}
+
+.session-words h3{
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 32px;
+  color: #454245;
+  max-width: 700px;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom:40px;
+}
+
+
+.session-below-words form{
+  display: flex;
+  flex-direction: column;
+}
+
+.session-error{
+  color:red;
+  font-weight:400;
+  font-size: 13px;
+  line-height:18px;
+  box-sizing: border-box;
+}
+
+
+.session-switch{
+  background-color:transparent;
+  border:none;
+  text-decoration: none;
+  font-size:18px;
+  padding: 0;
+}

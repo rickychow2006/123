@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WeSlack</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all'%>
+    
+    <%= javascript_include_tag 'application' %>
+
+    <script>
+    window.images = {
+      logo: "<%= asset_path("slack.svg") %>",
+      dprofile: "<%= asset_path("defaultp.jpg") %>",
+      wfh1: "<%= asset_path("wfh1.svg") %>",
+      wfh2:"<%= asset_path("wfh2.svg") %>",
+      feature: "<%= asset_path("features.svg") %>",
+      feature2: "<%= asset_path("feature2.svg") %>",
+      jinghao: "<%= asset_path("jinghao.svg") %>",
+      send: "<%= asset_path("send.svg") %>",
+      lock: "<%= asset_path("lock.svg") %>",
+      triangle: "<%= asset_path("triangle.svg") %>",
+      triangle3: "<%= asset_path("triangle3.svg") %>",
+      plus: "<%= asset_path("plus.svg") %>",
+      info: "<%= asset_path("info.svg") %>",
+      leave: "<%= asset_path("leave.svg") %>",
+      jinghaob: "<%= asset_path("jinghaoblack.svg") %>",
+      lockb: "<%= asset_path("lockblack.svg") %>",
+      dot: "<%= asset_path("dot.svg") %>",
+    }
+    </script>
+
+    <script src="https://kit.fontawesome.com/36d06c065f.js" crossorigin="anonymous"></script>
+
+    
+    
+
+  <%= favicon_link_tag asset_path('slack.svg') %>
+
+  
+  <meta property="og:title" content="WeSlack" />
+  <meta property='og:image' content="<%= image_url('weslack.png') %>"/>
+  <meta property="og:description" content="WeSlack is a clone of Slack. It is a demo solo project using Rails, PostgreSQL, React and Redux. "/>
+  <meta property="og:url" content="https://weslackin.herokuapp.com/#/"/>
+
+
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

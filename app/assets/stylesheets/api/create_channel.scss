@@ -1,0 +1,237 @@
+.cchannel-flexpart{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+.cchannel-flexpart1{
+  color: rgb(29, 28, 29);
+  // font-weight: 800;
+  // font-size:28px;
+  // line-height: 22px;
+  line-height: 1.46668;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 750;
+
+}
+.cchannel-flexpart2{
+  color: rgb(97, 96, 97);
+}
+
+.cchannel-flexpart3, .cchannel-flexpart4{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(29, 28, 29);
+  font-weight: 700;
+}
+
+.cchannel-flexpart5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 110%;
+  color: rgb(29, 28, 29);
+}
+
+.cchannel-flexpart > *{
+  padding: 10px 5px 10px;
+  width: 90%;
+}
+
+.cchanel-form-private{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cchannel-input,.cchannel-form-private{
+  width: 100%;
+  padding: 5px;
+  height:25px;
+}
+
+.cchannel-flexpart6{
+  text-align:right;
+  width: 95%;
+}
+
+
+.cchannel-submit{
+  font-size: 15px;
+  font-weight: 400;
+  box-sizing: inherit;
+  margin-left: auto;  
+  border:none;
+  border-radius: 4px;
+  font-weight: 900;
+  height: 36px;
+  padding: 0px 12px 1px;
+  // cursor: pointer;
+  
+}
+
+.cchannel-input:focus{
+  box-shadow: 0px 0px 5px rgb(18, 100, 163);
+  outline-width: 0;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+//hide and show form
+
+.cchannel-form, .cchannel-form-bg{
+  display:none;
+}
+
+.cchannel-form-show{
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  // margin-left: -110px;
+  width: 360px;
+  padding: 30px;
+  background: #fff;
+  z-index: 3;
+  border-radius: 5px;
+  border: none;
+}
+
+.cchannel-form-show-bg{
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+//end of hide and show form
+
+
+
+
+
+
+
+//the add column button always showing//
+.side-bar-channels-create{
+  border: none;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent
+}
+//end the add column button always showing//
+
+//close button for modal/
+.cchannel-button-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  background-color:transparent;
+  color: gray;
+  border:none;
+  outline: none;
+}
+
+//end of model close button
+
+
+
+
+
+
+// The switch here //
+.cchannel-switch {
+  position: relative;
+  display: inline-block;
+  width: 56px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.cchannel-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.cchannel-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.cchannel-slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.cchannel-switch input:checked + .cchannel-slider {
+  background-color: rgb(10, 82, 10);
+}
+
+.cchannel-switch input:focus + .cchannel-slider {
+  box-shadow: 0 0 1px rgb(10, 127, 96);
+}
+
+.cchannel-switch input:checked + .cchannel-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.cchannel-slider {
+  border-radius: 34px;
+}
+
+.cchannel-slider:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+///add channel 
+.cchannel-add-channel{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(188, 171, 188);
+}
